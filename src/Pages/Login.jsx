@@ -1,10 +1,15 @@
-import React from 'react'
-import './Login.css';
-import {ReactComponent as Perro} from './Img/Perro.svg';
+import '../Css/Login.css';
+import {ReactComponent as Perro} from '../Img/Perro.svg';
 import { NavLink } from 'react-router-dom';
 
 export default function Login() {
   return (
+    <div style={{
+      width:'100%',
+      height:'100vh',
+      background: '#4AE0A7',
+    }}>
+
     <div className='login-box'>
     <Perro className="avatar" />
     <div className='Formulario'>
@@ -28,6 +33,7 @@ export default function Login() {
     </form>
     </div>
   </div>
+</div>
   )
 }
 
