@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/Software-Academico/static/css/main.737dd862.css",
+    "main.js": "/Software-Academico/static/js/main.64cf3b78.js",
+    "static/js/787.6f57782b.chunk.js": "/Software-Academico/static/js/787.6f57782b.chunk.js",
+    "static/media/Perro.svg": "/Software-Academico/static/media/Perro.5ce16b9f78776e8c976e6f082f706cfa.svg",
+    "index.html": "/Software-Academico/index.html",
+    "main.737dd862.css.map": "/Software-Academico/static/css/main.737dd862.css.map",
+    "main.64cf3b78.js.map": "/Software-Academico/static/js/main.64cf3b78.js.map",
+    "787.6f57782b.chunk.js.map": "/Software-Academico/static/js/787.6f57782b.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.737dd862.css",
+    "static/js/main.64cf3b78.js"
+  ]
+}
