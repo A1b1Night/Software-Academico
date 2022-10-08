@@ -1,0 +1,24 @@
+#back-menu{
+    background-image: url(../Img/Colegio.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    overflow: hidden;
+}
+
+.contenedor{
+    display: flex;
+    flex: wrap;
+    align-items: center;
+    text-align: center;
+}
+
+.contenedores{
+    background: #EDFAA7;
+    width: 20vh;
+    height: 10vh;
+    border-radius: 6px;
+    box-shadow: 0 10px 30px #000;
+    margin: 200px auto;
+    border: 1px solid #ffffff40;
+}

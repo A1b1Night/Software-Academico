@@ -2,6 +2,7 @@ import '../Css/Login.css';
 import {ReactComponent as Perro} from '../Img/Perro.svg';
 import {Button}  from "@mui/material";
 import { Link} from 'react-router-dom';
+import { border } from '@mui/system';
 
 
 export default function Login() {
@@ -27,7 +28,10 @@ export default function Login() {
       <label htmlFor="password">Contraseña</label>
       <input type="password" placeholder='Ingresa Contraseña' />
 
-      <Button variant='contained' size="large" href="Menu" fullWidth>Iniciar Sesion"</Button>
+      <Button variant='contained' size="large" href="Menu" fullWidth 
+        sx={{borderRadius:'10px',backgroundColor:'#9E8EFA',"&:hover":{backgroundColor:'#ED6F42'} }}
+      >Iniciar Sesion</Button>
+
       <Link to="#">¿Has perdido tu contraseña?</Link>
       <br/>
       <Link to="#">¿No tienes una cuenta?</Link>
