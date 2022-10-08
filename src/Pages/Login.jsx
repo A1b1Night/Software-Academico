@@ -1,6 +1,8 @@
 import '../Css/Login.css';
 import {ReactComponent as Perro} from '../Img/Perro.svg';
-import { NavLink } from 'react-router-dom';
+import {Button}  from "@mui/material";
+import { Link} from 'react-router-dom';
+
 
 export default function Login() {
   return (
@@ -25,16 +27,19 @@ export default function Login() {
       <label htmlFor="password">Contraseña</label>
       <input type="password" placeholder='Ingresa Contraseña' />
 
-      <input type="submit" value="Iniciar Sesion" />
-
-      <NavLink to="#">¿Has perdido tu contraseña?</NavLink>
+      <Button variant='contained' size="large" href="Menu" fullWidth>Iniciar Sesion"</Button>
+      <Link to="#">¿Has perdido tu contraseña?</Link>
       <br/>
-      <NavLink to="#">¿No tienes una cuenta?</NavLink>
+      <Link to="#">¿No tienes una cuenta?</Link>
     </form>
     </div>
   </div>
 </div>
   )
 }
+
+  
+
+
 
 

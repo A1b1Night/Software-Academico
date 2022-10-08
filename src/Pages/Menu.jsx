@@ -1,10 +1,10 @@
 import React from 'react'
 import '../Css/Menu.css';
 
-function Intrefaz() {
+function Menu() {
   return (
     <h1>Menu</h1>
   )
 }
 
-export default Intrefaz
+export default Menu
