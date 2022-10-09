@@ -8,17 +8,23 @@
 
 .contenedor{
     display: flex;
-    flex: wrap;
+    flex-wrap: wrap;
     align-items: center;
-    text-align: center;
+    align-content: center;
+    flex-direction: row;
+    justify-content: space-around;
+    height: 100%;
 }
 
 .contenedores{
     background: #EDFAA7;
-    width: 20vh;
-    height: 10vh;
+    border: 1px solid #00000040;
+    color: black;
+    font-weight: bold;
+    line-height: 120px;
+    text-align: center;
+    overflow: hidden;
+    width: 300px;
     border-radius: 6px;
-    box-shadow: 0 10px 30px #000;
-    margin: 200px auto;
-    border: 1px solid #ffffff40;
+    margin: 30px;
 }
