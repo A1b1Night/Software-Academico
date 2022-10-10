@@ -2,7 +2,6 @@ import '../Css/Login.css';
 import {ReactComponent as Perro} from '../Img/Perro.svg';
 import {Button}  from "@mui/material";
 import { Link} from 'react-router-dom';
-import { border } from '@mui/system';
 
 
 export default function Login() {
