@@ -42,7 +42,7 @@ export default function Login() {
 
             <Link to="#">¿Has perdido tu contraseña?</Link>
             <br />
-            <Link to="#">¿No tienes una cuenta?</Link>
+            <Link to="Registro">¿No tienes una cuenta?</Link>
           </form>
         </div>
       </div>

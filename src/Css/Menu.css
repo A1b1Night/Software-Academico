@@ -38,3 +38,7 @@
     align-self: flex-end;
     position: absolute;
 }
+
+.Opciones div{
+    margin: 10px;
+}

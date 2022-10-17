@@ -1,4 +1,5 @@
 import '../Css/Interfaz.css'
+import FlechaRegreso from '../Components/FlechaRegreso';
 
 function Interfaz() {
   return (
@@ -21,6 +22,7 @@ function Interfaz() {
           </div>
 
         </div>
+        <FlechaRegreso />
       </div>
     </div>
   );

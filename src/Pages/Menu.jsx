@@ -1,9 +1,8 @@
 import '../Css/Menu.css';
 import {ReactComponent as Libro} from '../Img/Libro.svg';
 import {ReactComponent as Grafico} from '../Img/Grafico.svg';
-import IconButton from '@mui/material/IconButton';
-import PersonIcon from '@mui/icons-material/Person';
-import KeyboardBackspaceIcon from '@mui/icons-material/KeyboardBackspace';
+import {ReactComponent as User } from '../Img/User.svg';
+import {ReactComponent as FlechaIzquierda } from '../Img/Flecha-Izquierda.svg';
 import {Button}  from "@mui/material";
 
 
@@ -27,14 +26,10 @@ function Menu() {
 
         <div className="Opciones">
           <div>
-            <IconButton>
-              <KeyboardBackspaceIcon fontSize="large" sx={{ color: "black" }} />
-            </IconButton>
+            <Button href="/"><FlechaIzquierda /></Button>
           </div>
           <div>
-            <IconButton>
-              <PersonIcon fontSize="large" sx={{ color: "black" }} />
-            </IconButton>
+            <Button><User /></Button>
           </div>
         </div>
       </div>
