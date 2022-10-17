@@ -6,7 +6,6 @@ import Comprension from './Pages/ComprensionLectora';
 import {BrowserRouter,Route,Routes} from 'react-router-dom';
 import { StyledEngineProvider } from '@mui/material/styles';
 
-
 export default function App() {
   return (
     <StyledEngineProvider>
@@ -15,7 +14,7 @@ export default function App() {
         <Route path='/' element={<Login />} />
         <Route path='/Menu' element={<Menu />} />
         <Route path='/Matematica' element={<Matematica />} />
-        <Route path='/Compresion' element={<Comprension />} />
+        <Route path='/Comprension' element={<Comprension />} />
       </Routes>
     </BrowserRouter>
     </StyledEngineProvider>

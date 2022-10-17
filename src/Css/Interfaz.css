@@ -1,0 +1,57 @@
+:root{
+    --mostaza: #FAFFDE;
+}
+
+.pizarra{
+    width: 75%;
+    height: 75%;
+    background-color: #ED6F42;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+
+.titulo{
+    text-align: center;
+    align-content: center;
+    justify-content: center;
+    position: absolute;
+    top: 100px;
+    left: 234px;
+    width: 75%;
+    background-color: #FAFFDE;
+}
+
+.contenido{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap ;
+    text-align: center;
+    align-content: center;
+    justify-content: space-around;
+    
+}
+
+.contenido div{
+    margin: 20px;
+    width: 42vh;
+    height: 25vh;
+    border-radius: 6px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: -10px 10px 0 0 #C5481C;
+}
+
+@media screen and (max-width: 1121px) {
+    .contenido div{
+        width: 35vh;
+        height: 22vh;
+    }
+}
+
+@media screen and (max-width: 952px) {
+    .contenido div{
+        width: 30vh;
+        height: 20vh;
+    }
+}

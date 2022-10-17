@@ -1,8 +1,13 @@
-import React from 'react'
+import Interfaz from '../Components/Interfaz'
 
 function Matematicas() {
   return (
-    <div>Matematicas</div>
+    <div>
+        <div className="titulo">
+          <h1>Matematicas</h1>
+        </div>
+      <Interfaz/>
+    </div>
   )
 }
 

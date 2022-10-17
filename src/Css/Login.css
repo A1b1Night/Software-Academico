@@ -55,6 +55,8 @@
     font-size: 12px;
     line-height: 20px;
     color: rgb(61, 59, 59);
+    margin-bottom: 20px; 
+
   }
   
   .login-box a:hover {

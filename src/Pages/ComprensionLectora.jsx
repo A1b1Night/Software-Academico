@@ -1,8 +1,13 @@
-import React from 'react'
+import Interfaz from "../Components/Interfaz"
 
 function ComprensionLectora() {
   return (
-    <div>ComprensionLectora</div>
+    <div>
+        <div className="titulo">
+          <h1>Compresion Lectora</h1>
+        </div>
+      <Interfaz/>
+    </div>
   )
 }
 
