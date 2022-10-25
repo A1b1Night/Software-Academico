@@ -1,6 +1,6 @@
-.login-box {
-    width: 320px;
-    height: 400px;
+.register-box{
+    width: 500px;
+    height: 480px;
     background: #F7EC45;
     color: rgb(41, 39, 39);
     top: 50%;
@@ -10,37 +10,38 @@
     box-sizing: border-box;
     padding: 70px 30px;
     border-radius: 10%;
-  }
-  
-  .login-box .avatar {
+}
+
+.register-box .avatar {
     width: 200px;
     height: 200px;
     border-radius: 50%;
     position: absolute;
     top: -100px;
-    left: calc(30% - 50px);
+    left: calc(35% - 50px);
   }
   
-  .login-box h1 {
+  .register-box h1 {
     margin: 0;
     padding: 0 0 20px;
     text-align: center;
-    font-size: 35px;
+    font-size: 30px;
   }
   
-  .login-box label {
+  .register-box label {
     margin: 0;
     padding: 0;
     font-weight: bold;
     display: block;
   }
   
-  .login-box input {
+  .register-box input {
     width: 100%;
+    margin: 10px;
     margin-bottom: 20px;
   }
   
-  .login-box input[type="email"], .login-box input[type="password"] {
+  .register-box input[type="text"], .register-box input[type="password"],.register-box input[type="email"] {
     border: none;
     border-bottom: 1px solid #fff;
     background: transparent;
@@ -50,7 +51,7 @@
     font-size: 16px;
   }
   
-  .login-box a {
+  .register-box a {
     text-decoration: none;
     font-size: 12px;
     line-height: 20px;
@@ -59,7 +60,12 @@
 
   }
   
-  .login-box a:hover {
+  .register-box a:hover {
     color: #fff;
   }
   
+  .apellidos{
+    display: flex;
+    justify-content: space-between;
+  }
+

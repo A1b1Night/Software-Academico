@@ -16,14 +16,14 @@ export default function Login() {
       <div className="login-box">
         <Perro className="avatar" />
         <div className="Formulario">
-          <h1>Login</h1>
+          <h1>Inicie Sesion</h1>
           <form>
             {/* Username */}
-            <label htmlFor="username">Nombre de Usuario</label>
-            <input type="text" placeholder="Ingresa Nombre de Usuario" />
+            <label>Correo Electronico</label>
+            <input type="email" placeholder="Ingresa Nombre de Usuario" />
 
             {/* Password */}
-            <label htmlFor="password">Contraseña</label>
+            <label>Contraseña</label>
             <input type="password" placeholder="Ingresa Contraseña" />
 
             <Button
@@ -39,9 +39,6 @@ export default function Login() {
             >
               Iniciar Sesion
             </Button>
-
-            <Link to="#">¿Has perdido tu contraseña?</Link>
-            <br />
             <Link to="Registro">¿No tienes una cuenta?</Link>
           </form>
         </div>
