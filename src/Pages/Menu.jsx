@@ -1,8 +1,8 @@
 import '../Css/Menu.css';
-import {ReactComponent as Libro} from '../Img/Libro.svg';
-import {ReactComponent as Grafico} from '../Img/Grafico.svg';
-import {ReactComponent as User } from '../Img/User.svg';
-import {ReactComponent as FlechaIzquierda } from '../Img/Flecha-Izquierda.svg';
+import {ReactComponent as Libro} from '../Assets/Img/Libro.svg';
+import {ReactComponent as Grafico} from '../Assets/Img/Grafico.svg';
+import {ReactComponent as User } from '../Assets/Img/User.svg';
+import {ReactComponent as FlechaIzquierda } from '../Assets/Img/Flecha-Izquierda.svg';
 import {Button}  from "@mui/material";
 
 

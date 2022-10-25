@@ -1,7 +1,7 @@
 import '../Css/Registro.css';
-import {ReactComponent as Perro} from '../Img/Perro.svg';
+import {ReactComponent as Perro} from '../Assets/Img/Perro.svg';
 import {Button}  from "@mui/material";
-import { Link} from 'react-router-dom';
+
 
 function Registro() {
   return (
