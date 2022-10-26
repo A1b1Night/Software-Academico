@@ -20,7 +20,7 @@ export default function Login() {
           <form>
             {/* Username */}
             <label>Correo Electronico</label>
-            <input type="email" placeholder="Ingresa Nombre de Usuario" />
+            <input type="email" placeholder="Ingresa Correo Electronico" />
 
             {/* Password */}
             <label>Contraseña</label>
