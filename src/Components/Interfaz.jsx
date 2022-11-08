@@ -20,7 +20,6 @@ function Interfaz() {
             <div></div>
             <div></div>
           </div>
-
         </div>
         <FlechaRegreso />
       </div>
