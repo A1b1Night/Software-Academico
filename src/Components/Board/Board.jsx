@@ -1,11 +1,12 @@
+import FlechaRegreso from '../FlechaRegreso';
 import MemoBlock from '../MemoBlock/MemoBlock';
 import './Board.css';
 
 const Board = ({animating, handleMemoClick, memoBlocks}) => {
     return (
-      <div>
-        <div className='Titulo'>
-        <h1>Memorama Wazaaa</h1>
+      <div id="back-board">
+        <div className="Titulo">
+          <h1>Memorama</h1>
         </div>
         <main className="board">
           {memoBlocks.map((memoBlock, i) => {
@@ -19,6 +20,7 @@ const Board = ({animating, handleMemoClick, memoBlocks}) => {
             );
           })}
         </main>
+        <FlechaRegreso />
       </div>
     );
 }

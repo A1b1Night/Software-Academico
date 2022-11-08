@@ -1,5 +1,7 @@
 import '../Css/Interfaz.css'
+import {Button}  from "@mui/material";
 import FlechaRegreso from '../Components/FlechaRegreso';
+import Memorama from '../Assets/Img/Memorama.jpg'
 
 function Interfaz() {
   return (
@@ -16,7 +18,12 @@ function Interfaz() {
       >
         <div className="pizarra">
           <div className="contenido">
-            <div></div>
+            <Button href="Juego1">
+              <div>
+                <img src={Memorama} alt="" />
+              </div>
+            </Button>
+
             <div></div>
             <div></div>
           </div>
